@@ -1,0 +1,101 @@
+.footer  {
+    padding: 50px 10%;
+    background-color: #0C356A;
+}
+
+.container {
+    display: flex;
+}
+
+.container div {
+    text-align: center;
+}
+
+.col-2 {
+    flex-grow: 2;
+}
+
+.container div h2 {
+    margin-bottom: 1rem;
+    color: #40F8FF;
+    letter-spacing: 2px;
+}
+
+.col-1 a {
+    display: block;
+    font-weight: 300;
+    font-size: 15pt;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    outline: none;
+    text-align: center;
+    font-size: 12pt;
+    border: none;
+    border-radius: 15px;
+}
+
+form button {
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 12pt;
+    border: 2px solid #40F8FF;
+    background: none;
+}
+
+.col-3 p {
+    font-size: 15pt;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.social-icons {
+    margin-top: 1.5rem;
+}
+
+.social-icons a {
+    font-size: 18pt;
+    color: white;
+    margin: 8px;
+}
+
+/* HOVER */
+form button:hover {
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    color: #40F8FF;
+    font-weight: bold;
+    font-size: 12pt;
+    border: 2px solid ;
+    background: none;
+}
+
+.col-1 a:hover {
+    display: block;
+    font-weight: 300;
+    font-size: 15pt;
+    text-decoration: none;
+    color: #D5FFD0;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.social-icons a:hover {
+    font-size: 18pt;
+    color: #D5FFD0;
+    margin: 8px;
+}

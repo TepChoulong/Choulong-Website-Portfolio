@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TepChoulong - Home</title>
     <!-- Must have in each html -->
+    <link rel="stylesheet" href="Src/Styles/header.css">
     <link rel="stylesheet" href="Src/Styles/body.css">
+    <link rel="stylesheet" href="Src/Styles/footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
     <link rel="stylesheet" href="Src/Styles/index.css">
 </head>
@@ -15,10 +18,10 @@
             <h1 id="logo">Logo/Name</h1>
             <div class="nav-bar-option">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -28,9 +31,34 @@
             <h1 id="title">Hello There!<br>Welcome to My Website</h1>
         </div>
     </main>
-    <footer>
-        <div class="footer-container">
-            <h1>Hello this is footer section</h1>
+    <footer class="footer">
+        <div class="container">
+            <div class="col-1">
+                <h2>USEFUL LINKS</h2>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+                <a href="#">Shop</a>
+                <a href="#">Blog</a>
+            </div>
+            <div class="col-2">
+                <h2>NEWLETTER</h2>
+                <form>
+                    <input type="text" placeholder="Your Email Address">
+                    <br>
+                    <button type="submit">SUBSCRIBE NOW!</button>
+                </form>
+            </div>
+            <div class="col-3">
+                <h2>CONTACT</h2>
+                <p>Street 0, 123, TSP <br> Phnom Penh, Cambodia</p>
+                <div class="social-icons">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-github"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
