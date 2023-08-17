@@ -20,7 +20,7 @@
     background-color: rgb(88, 37, 230);
 }
 .about-container #title, .project-container #title {
-    font-size: 45pt;
+    font-size: 48pt;
     padding: 6rem 0 6rem 0;
     color: white;
     text-align: center;
@@ -53,8 +53,20 @@
 /* -------------- PROJECT SECTION --------------- */
 
 .project-container {
-    display: flex;
-    justify-content: center;
-    height: 105vh;
+    height: 225vh;
     background-color: rgb(236, 28, 142);
 }
+.project-container div {
+    display: flex;
+    align-items: center;
+    width: 1500px;
+    margin: 0 auto 4rem;
+}
+.project-container div img {
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    object-fit: contain;
+    margin-right: 3rem;
+}
+
