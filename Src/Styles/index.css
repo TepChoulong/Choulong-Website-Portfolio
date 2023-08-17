@@ -1,4 +1,4 @@
-/* -------------- WLECOME SECTION --------------- */
+/* -------------- WELCOME SECTION --------------- */
 
 .welcome-container {
     display: flex;
@@ -53,20 +53,29 @@
 /* -------------- PROJECT SECTION --------------- */
 
 .project-container {
-    height: 225vh;
+    height: 265vh;
     background-color: rgb(236, 28, 142);
 }
-.project-container div {
+.project-1-container,
+.project-2-container,
+.project-3-container,
+.project-4-container {
     display: flex;
     align-items: center;
     width: 1500px;
     margin: 0 auto 4rem;
 }
 .project-container div img {
-    width: 400px;
-    height: 400px;
-    border: 1px solid black;
+    width: 500px;
+    height: 500px;
     object-fit: contain;
     margin-right: 3rem;
+}
+.project-container div .description h1 {
+    font-size: 32pt;
+    font-weight: 600;
+}
+.project-container div .description p {
+    font-size: 20pt;
 }
 
