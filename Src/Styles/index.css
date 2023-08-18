@@ -5,12 +5,44 @@
     justify-content: center;
     align-items: center;
     height: 105vh;
-    background-color: rgb(41, 216, 158);
+
 }
 .welcome-container #title {
     text-align: center;
     font-size: 78pt;
     color: white;
+    z-index: 1;
+    animation: FadeTheWelcome 1s ease;
+}
+.welcome-container .img-class {
+    position: absolute;
+}
+.welcome-container .img-class img {
+    z-index: -1;
+    width: 100%;
+    object-fit: contain;
+    animation: FadeTheWelcomeBG 1s ease;
+}
+/* -------------- WELCOME SECTION ANIMATION--------------- */
+@keyframes FadeTheWelcome {
+    from {
+        transform: translateY(-500px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 100;
+    }
+}
+@keyframes FadeTheWelcomeBG {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100;
+    }
 }
 
 /* -------------- ABOUT SECTION --------------- */
@@ -19,7 +51,7 @@
     height: 105vh;
     background-color: rgb(88, 37, 230);
 }
-.about-container #title, .project-container #title {
+.about-container #title, .project-container #title, .contact-container #title {
     font-size: 48pt;
     padding: 6rem 0 6rem 0;
     color: white;
@@ -71,11 +103,19 @@
     object-fit: contain;
     margin-right: 3rem;
 }
-.project-container div .description h1 {
+.project-container div .description h1 a {
     font-size: 32pt;
     font-weight: 600;
+    text-decoration: none;
+    color: black;
 }
 .project-container div .description p {
     font-size: 20pt;
 }
 
+/* -------------- PROJECT SECTION --------------- */
+
+.contact-container {
+    height: 105vh;
+    background-color: rgb(76, 230, 37);
+}
